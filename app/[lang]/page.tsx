@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { getMessages, isLang, type Lang } from "@/lib/i18n";
+import { getMessages, isLang, type Lang } from "../../lib/i18n";
 import { notFound } from "next/navigation";
 
 export default async function Page({ params }: { params: Promise<{ lang: string }> }) {
