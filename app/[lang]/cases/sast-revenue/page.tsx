@@ -1,8 +1,11 @@
 import Link from "next/link";
+codex/fix-build-errors-on-vercel-3ac9i4
+import { getMessages, isLang, type Lang } from "@/lib/i18n";
 codex/fix-build-errors-on-vercel-tpc7xd
 import { getMessages, isLang, type Lang } from "../../../../lib/i18n";
 import { getMessages, isLang, type Lang } from "../../../lib/i18n";
- main
+main
+main
 import { notFound } from "next/navigation";
 
 export default async function Page({ params }: { params: Promise<{ lang: string }> }) {
