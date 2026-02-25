@@ -1,0 +1,72 @@
+{
+  "nav": {
+    "home": "Home",
+    "cases": "Cases",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "AI Commercialization Product Manager",
+    "subtitle": "Embedding LLM capabilities into enterprise products and designing scalable monetization: capability evaluation, RAG/on‑prem delivery, pricing & conversion.",
+    "ctaPrimary": "Download Resume (PDF)",
+    "ctaSecondary": "View Case Studies"
+  },
+  "kpis": [
+    {
+      "t": "AI Productization",
+      "d": "RAG under on‑prem constraints, confidence & explainability, free→paid module strategy."
+    },
+    {
+      "t": "Monetization & Conversion",
+      "d": "Revenue planning, industry segmentation, sales enablement and conversion models."
+    },
+    {
+      "t": "Complex System Modeling",
+      "d": "Platform roadmap, data/permission modeling, standard vs custom packaging."
+    }
+  ],
+  "sections": {
+    "casesTitle": "Featured Case Studies",
+    "casesHint": "Focused on turning AI capability into business impact: framing → tradeoffs → constraints → monetization.",
+    "galleryTitle": "UI Gallery (Excerpt)",
+    "galleryHint": "Selected screens from a government platform project."
+  },
+  "cases": {
+    "sastAi": {
+      "name": "SAST: AI False Positive Reduction Module",
+      "meta": "On‑prem | RAG | Free trial → Paid add‑on",
+      "desc": "Built a rule‑constrained RAG workflow to cut false positives (~50%) and triage cost, calling a customer‑hosted LLM to return structured verdict + confidence + evidence."
+    },
+    "sastBiz": {
+      "name": "SAST: Revenue Delivery Plan (15M RMB)",
+      "meta": "Product owner | Industry playbooks | Product‑led selling",
+      "desc": "Designed a closed loop from segmentation → lead list → outreach → sales kit → POC → signing; displacement for power industry, DevSecOps integration for finance."
+    },
+    "sca": {
+      "name": "SCA: Platform Roadmap & Packaging",
+      "meta": "Competitive framework | Roadmap | Standard vs Custom",
+      "desc": "Contributed to competitive framework, capability layering, roadmap and packaging boundaries to scale delivery and pricing power."
+    },
+    "gov": {
+      "name": "Government: Supply Chain Situational Awareness",
+      "meta": "SCA × RASP integration | Feature definition & delivery",
+      "desc": "Unified runtime protection and supply chain risks into one platform with multi‑role workflows."
+    },
+    "eju": {
+      "name": "Side Project: EJU Math AI Site",
+      "meta": "Multimodal | Structured data | Vercel deployment",
+      "desc": "Solved image‑PDF extraction for formulas/geometry via tool/model evaluation; shipped ~10 sets online."
+    }
+  },
+  "about": {
+    "title": "About",
+    "p1": "I turn complex capabilities into sellable products—define value & constraints, modularize AI features with explainability, and connect to monetization & GTM execution.",
+    "p2": "Strength in enterprise AI productization (on‑prem/security/compliance). I also build side projects to sharpen multimodal & engineering skills."
+  },
+  "contact": {
+    "title": "Contact",
+    "hint": "Replace placeholders with your real info.",
+    "email": "you@example.com",
+    "github": "https://github.com/ejucoder-star/ai-commercialization-portfolio"
+  }
+}
