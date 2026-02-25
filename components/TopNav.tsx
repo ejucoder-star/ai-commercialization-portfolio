@@ -1,6 +1,6 @@
 import Link from "next/link";
 import LanguageSwitcher from "./LanguageSwitcher";
-import type { Lang } from "@/lib/i18n";
+import type { Lang } from "../lib/i18n";
 
 export default function TopNav({ lang, t }: { lang: Lang; t: any }) {
   return (
