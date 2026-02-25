@@ -1,5 +1,5 @@
-import TopNav from "@/components/TopNav";
-import { getMessages, isLang, type Lang } from "@/lib/i18n";
+import TopNav from "../../components/TopNav";
+import { getMessages, isLang, type Lang } from "../../lib/i18n";
 import { notFound } from "next/navigation";
 
 export default async function LangLayout({
