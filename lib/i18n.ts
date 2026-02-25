@@ -3,6 +3,10 @@ export type Lang = "zh" | "en" | "ja";
 
 export const SUPPORTED_LANGS: Lang[] = ["zh", "en", "ja"];
 
+export function isLang(input: string): input is Lang {
+  return SUPPORTED_LANGS.includes(input as Lang);
+}
+
 export function normalizeLang(input?: string): Lang {
   if (!input) return "zh";
   const v = input.toLowerCase();
